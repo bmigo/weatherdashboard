@@ -11,34 +11,32 @@
   <body>
     <header><h1>Weather Dashboard</h1></header>
 
-    <div>
+    <div class="flex-row justify-space-between">
       <div class="citySearch">
-        <div class="colspan-4 col-md-3">
+        
+        <div class="col-12 col-sm-12 col-md-4" style="float: left">
           <div class="card">
             <h2 class="card-header">Search for a City</h2> 
             <div id="citySelect" class="card-body">
               <input type="text" id="cityInput" placeholder="enter the name of a city"/>
               <button class="btn" id="searchBtn">Search</button>
+            </div>
           </div>
-          </div>
-        </div>
-
-
-        <div class="colspan-4 col-md-3 card">
-        <h2 class="card-header">Search History</h2>
-        </div>
-      
-        <div class="colspan-8 col-md-9 card" style="float:right;"> box three
           <div class="card">
-            <h2 class="card-header">Search for a City</h2> 
-            <div id="citySelect" class="card-body">
-              <input type="text" id="cityInput" placeholder="enter the name of a city"/>
-              <button class="btn" id="searchBtn">Search</button>
+            <h2 class="card-header">Search History</h2>
           </div>
         </div>
-        <div class="colspan-8 col-md-9">box four
 
+        <div class="col-12 col-sm-12 col-md-4" style="float:right">
+          <div>
+            box three
+          </div>
+
+          <div> 
+            box four
+          </div>
         </div>
+
       </div>
 
 
