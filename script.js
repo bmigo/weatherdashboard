@@ -4,3 +4,4 @@ var searchList = [];
 
 var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey;
 var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}";
+
